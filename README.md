@@ -9,11 +9,11 @@
 
 People come first. Always. A good leader helps, detects problems before they explode, prevents what can be prevented, and protects the team and the company at the same time, anticipating what the stakeholder will need instead of waiting to be asked.
 
-I work from objectivity, not from feelings: plans are hard to execute, but working without a plan is just gambling. That's why I obsess over process, own the outcome, and step up without hesitation when a crisis needs someone to take the wheel.
+I plan first and decide on evidence: executing a plan is hard, and working without one is gambling. That's why I obsess over process, own the outcome, and step up without hesitation when a crisis needs someone to take the wheel.
 
 I've been fortunate to work alongside genuinely talented people, and I chase that on purpose: new challenges, new people, any seniority level, because there's always something to learn. Spotting where someone can grow and helping them get there is one of the hardest parts of being a manager, and honestly, the most satisfying one. I also actively ask to be challenged back, through anonymous surveys, retros, open conversations, because that's the only way I really know what to improve.
 
-Achieved by redesigning the quality model across 25+ teams, with no added headcount or tooling spend:
+I run multi-team programs covering 56 engineers, with delivery governance reaching 25+ teams organization-wide. Redesigning the quality model across those teams, with no added headcount or tooling spend:
 
 **88% fewer production incidents · 863 defects stopped before reaching the business · 43% improvement in unit test quality**
 
@@ -44,11 +44,13 @@ Achieved by redesigning the quality model across 25+ teams, with no added headco
 <br>
 <h2 align="center"> What I do</h2>
 
-- **Delivery Management & PMO Enablement** predictability, stakeholder reporting, DORA metrics, budgets and SLAs across multi-team programs.
-- **Quality Engineering Strategy** own QE strategy end to end: what to test, what it costs, and how to plan around it instead of after it.
-- **AI-Native / Agentic Tooling** build agentic QA pipelines (Claude Code, Gemini CLI, Antigravity) that turn a functional spec into a full test suite.
-- **CTO Office & RFP Leadership** contribute to technical strategy at the org level and translate technical complexity into client-facing proposals.
-- **Mentorship** move engineers and QE professionals from manual testing into automation engineering.
+- **Delivery Management** predictability across complex, multi-team programs: scope, capacity planning, risk, escalation and delivery dates, working alongside Product Owners and Project Managers.
+- **PMO Enablement & Governance** DORA metrics, stakeholder reporting, budgets and SLAs, plus the AI skills our PMO uses to turn open-ended requirements into closed, estimable, fixed-price projects.
+- **RFP & Pre-Sales** translate technical complexity into commercially meaningful client proposals.
+- **People & Mentorship** grow engineers with individualized development plans and internal training programs.
+- **CTO Office** contribute to technical strategy and standards at the organizational level.
+- **AI Delivery** build agentic QA pipelines (Claude Code, Gemini CLI, Antigravity) that turn a functional spec into a full test suite.
+- **Quality-Led Delivery** own QE strategy end to end: what to test, what it costs, and how to plan around it instead of after it.
 
 <br>
 <br>
@@ -180,7 +182,10 @@ Development:
 
 <h2 align="center">Certifications</h2>
 
-- **Building with the Claude API** · Anthropic
+- **ICAgile ICP-APM** · Agile Project and Delivery Management, 2026
+- **Google Certified Partner Specialist** · Gemini Enterprise Deployment, 2026
+- **Google Certified Partner Specialist** · Gemini Enterprise Agent Development, 2026
+- **Building with the Claude API** · Anthropic, 2026
 - **ISTQB CTFL** · Certified Tester Foundation Level, 2021
 - **LPIC-1** · Linux Professional Institute, 2022
 - **PCEP** · Entry-Level Python Programmer, 2021
