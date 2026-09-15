@@ -2,7 +2,7 @@
 
 # Hi, I'm Alejandro Sierra 
 
-### Delivery Manager AI-Native · Quality Engineering & PMO Enablement · CTO Office · RFP Leadership
+### Delivery Manager · Multi-team Programs, PMO & Governance · AI Delivery · RFP & Pre-Sales
 
 <br>
 <br>
