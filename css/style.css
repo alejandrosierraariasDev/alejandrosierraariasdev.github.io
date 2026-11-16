@@ -928,3 +928,22 @@ p{ margin: 0; }
   .cl-card{ grid-template-columns: 1fr; }
   .cl-cover{ display: none; }
 }
+
+/* ---------- Products ---------- */
+.products-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 18px;
+  margin-top: 32px;
+}
+.product-card{ display: flex; flex-direction: column; gap: 10px; }
+.product-card .product-kicker{
+  font-family: var(--font-mono, monospace);
+  font-size: 0.75rem;
+  color: var(--text-faint);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.product-card .product-more{ margin-top: auto; font-size: 0.85rem; color: var(--accent); }
+.hero-cv{ margin-top: 14px; font-size: 0.9rem; color: var(--text-dim); }
+.hero-cv a{ color: var(--accent); border-bottom: 1px solid var(--accent-soft); }

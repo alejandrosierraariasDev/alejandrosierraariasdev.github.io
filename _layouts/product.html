@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<article class="section pm-post">
+  <div class="container pm-post-inner">
+    <a class="pm-back" href="{{ '/' | relative_url }}#products">← All products</a>
+
+    <p class="pm-post-meta"><span class="cl-ver">{{ page.kicker }}</span></p>
+
+    <h1 class="pm-post-title">{{ page.title }}</h1>
+    {% if page.subtitle %}<p class="pm-post-subtitle">{{ page.subtitle }}</p>{% endif %}
+
+    {% if page.tags.size > 0 %}
+    <div class="cl-tags">{% for tag in page.tags %}<span>{{ tag }}</span>{% endfor %}</div>
+    {% endif %}
+
+    <div class="pm-post-body">
+      {{ content }}
+    </div>
+
+    <div class="pm-share">
+      <a class="btn btn-primary" href="{{ '/' | relative_url }}#contact">Let's talk</a>
+      <a class="btn btn-ghost" href="{{ '/' | relative_url }}#products">Other products</a>
+    </div>
+  </div>
+</article>
