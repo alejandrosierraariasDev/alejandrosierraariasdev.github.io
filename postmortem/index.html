@@ -12,12 +12,9 @@ extra_scripts:
     <h1 class="section-title reveal">All postmortems</h1>
 
     <div class="filterbar" id="pmFilterBar" aria-label="Filter postmortems by tag"></div>
-    <div class="cl-list" id="pmList"></div>
+    <div class="cl-list" id="pmList" data-src="{{ '/postmortem/postmortems.json' | relative_url }}"></div>
     <p class="pm-empty" id="pmEmpty" hidden>No postmortems match this filter yet.</p>
     <nav class="pager" id="pmPager" aria-label="Postmortem pagination"></nav>
   </div>
 </section>
 
-<script>
-  window.POSTMORTEM_DATA_URL = "{{ '/postmortem/postmortems.json' | relative_url }}";
-</script>

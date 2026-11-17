@@ -88,3 +88,11 @@ if (earlier){
       : 'View earlier experience (2016 – 2020)';
   });
 }
+
+// ---------- Email: assembled at runtime so scrapers don't read it from the HTML ----------
+document.querySelectorAll('.js-mail').forEach(a => {
+  const addr = a.dataset.u + '@' + a.dataset.d;
+  a.href = 'mailto:' + addr;
+  const v = a.querySelector('.contact-value');
+  if (v) v.textContent = addr;
+});

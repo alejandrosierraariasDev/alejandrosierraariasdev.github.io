@@ -6,7 +6,8 @@
   const emptyEl = document.getElementById('pmEmpty');
   const filterEl = document.getElementById('pmFilterBar');
   const pagerEl = document.getElementById('pmPager');
-  if (!listEl || !window.POSTMORTEM_DATA_URL) return;
+  const DATA_URL = listEl && listEl.dataset.src;
+  if (!DATA_URL) return;
 
   let posts = [];
   let activeTag = '';
@@ -120,7 +121,7 @@
     renderPager(filtered.length);
   }
 
-  fetch(window.POSTMORTEM_DATA_URL)
+  fetch(DATA_URL)
     .then((res) => res.json())
     .then((data) => {
       posts = Array.isArray(data) ? data : [];
